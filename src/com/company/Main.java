@@ -19,7 +19,7 @@ public class Main {
         System.out.println(avg);
 
         int half = avg/2;
-		System.out.println(half);
+//		System.out.println(half);
 
         if (half > 3){
 			System.out.println("Программа выполнена корректно");
