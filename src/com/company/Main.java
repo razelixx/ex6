@@ -6,19 +6,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner scan_x = new Scanner(System.in);
-	    int x = scan_x.nextInt();
+        Scanner scan = new Scanner(System.in);
+	    double x = scan.nextInt();
+		double y = scan.nextInt();
+		double z = scan.nextInt();
 
-	    Scanner scan_y = new Scanner(System.in);
-	    int y = scan_y.nextInt();
+		double avg = (x + y + z)/3;
+//        System.out.println(avg);
 
-	    Scanner scan_z = new Scanner(System.in);
-	    int z = scan_z.nextInt();
-
-	    int avg = (x + y + z)/3;
-        System.out.println(avg);
-
-        int half = avg/2;
+		double half = Math.floor(avg/2);
 //		System.out.println(half);
 
         if (half > 3){
